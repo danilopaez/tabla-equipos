@@ -1,6 +1,6 @@
 Template.Equipo_tmp.helpers({
   equipos(){
-    return Equipos.find({}, { sort : { puntos: -1 } });
+    return Equipos.find({}, { sort : { puntos: -1, jugados: 1 } });
   }
 })
 
