@@ -1,11 +1,11 @@
 <template name="Equipo_tmp">
   {{#each equipos}}
     <li class="{{ club }}">
-      <i class="fa fa-thumbs-up gano"></i>
-      <i class="fa fa-minus-square empato"></i>
-      <i class="fa fa-thumbs-down perdio"></i>
+      <i class="fa fa-thumbs-o-up gano"></i>
+      <i class="fa fa-handshake-o empato"></i>
+      <i class="fa fa-thumbs-o-down perdio"></i>
       {{ club }}
-      <span>{{ puntos }}</span>
+      <span>{{ puntos }} / <sub>{{ jugados }}</sub></span>
     </li>
   {{/each}}
 </template>
