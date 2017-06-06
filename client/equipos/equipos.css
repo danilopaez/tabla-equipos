@@ -1,0 +1,32 @@
+.Boca {
+  background-color: yellow;
+  color: blue;
+}
+.River {
+  background-color: red;
+  color: white;
+}
+
+.Talleres {
+  background-color: #0000ee;
+  color: white;
+}
+
+.Belgrano {
+  background-color: lightblue;
+}
+
+li{
+  list-style-type: none;
+  padding: 3vw;
+}
+
+body{
+  margin: 10vw;
+  font-size: 16px;
+  font-family: Verdana;
+}
+
+h1 {
+  text-align: center;
+}
